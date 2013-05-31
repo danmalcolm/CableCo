@@ -1,4 +1,7 @@
 CableCo
 =======
 
-A demo of using Rebus for messaging / event-driven architecture
+A simple prototype implementation of an event-driven architecture using Rebus with Castle Windsor and NHibernate.
+
+
+
