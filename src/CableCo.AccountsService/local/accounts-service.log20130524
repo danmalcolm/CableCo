@@ -1,0 +1,436 @@
+2013-05-24 10:39:18,806 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 10:39:18,825 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 10:39:26,633 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 123
+2013-05-24 10:39:28,723 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 10:39:28,794 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 10:40:18,569 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 10:40:18,570 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 10:40:18,572 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 1234
+2013-05-24 10:40:20,577 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 10:40:20,579 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 10:41:02,456 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 10:41:02,458 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 10:41:02,462 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 12345
+2013-05-24 10:41:04,467 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 10:41:04,471 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 10:41:52,938 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 10:41:52,940 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 10:41:52,945 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 123456
+2013-05-24 10:41:54,950 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 10:41:54,951 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 11:47:37,512 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 11:47:37,597 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 11:47:40,673 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 123
+2013-05-24 11:47:43,729 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 11:47:43,788 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 11:59:34,018 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 11:59:34,033 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 12:00:01,341 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 12345
+2013-05-24 12:00:04,097 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 12:00:04,146 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 12:04:24,441 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 12:04:24,442 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 12:04:24,476 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 12345678
+2013-05-24 12:04:26,599 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 12:04:26,602 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 12:05:18,586 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 12:05:18,587 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 12:05:18,589 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 12345678
+2013-05-24 12:05:18,623 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 12:05:18,629 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 12:05:29,351 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 12:05:29,353 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 12:05:29,362 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 12345678
+2013-05-24 12:05:29,379 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 12:05:29,451 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 12:24:23,250 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 12:24:23,267 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 12:24:25,204 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 1234
+2013-05-24 12:24:28,184 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 12:24:28,248 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 12:26:11,401 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 12:26:11,401 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 12:26:11,412 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 12345
+2013-05-24 12:26:13,450 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 12:26:13,453 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 12:28:08,636 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 12:28:08,637 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 12:28:08,645 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 22
+2013-05-24 12:28:10,840 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 12:28:10,844 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 12:30:02,893 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 12:30:02,897 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 12:30:02,900 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: xx
+2013-05-24 12:30:04,906 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 12:30:04,908 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 12:36:40,597 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 12:36:40,598 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 12:36:40,622 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 111
+2013-05-24 12:36:42,735 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 12:36:42,737 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 13:21:07,506 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 13:21:07,507 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 13:21:07,535 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 123
+2013-05-24 13:21:09,553 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 13:21:09,555 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 13:27:07,119 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 13:27:07,123 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 13:27:07,175 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 123
+2013-05-24 13:27:07,267 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 13:27:07,280 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 13:27:20,953 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 13:27:20,955 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 13:27:20,965 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 1234
+2013-05-24 13:27:22,970 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 13:27:22,973 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 13:32:43,593 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 13:32:43,594 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 13:32:43,604 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 1234
+2013-05-24 13:32:43,614 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 13:32:43,623 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 13:32:56,485 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 13:32:56,486 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 13:32:56,491 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 1234
+2013-05-24 13:32:56,497 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 13:32:56,499 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 13:33:30,646 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 13:33:30,648 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 13:33:30,658 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 1234
+2013-05-24 13:33:30,679 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 13:33:30,701 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 13:33:35,380 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 13:33:35,382 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 13:33:35,407 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 123
+2013-05-24 13:33:35,492 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 13:33:35,514 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 13:33:56,805 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 13:33:56,811 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 13:33:56,823 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 12345
+2013-05-24 13:33:58,830 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 13:33:58,833 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 13:34:32,915 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 13:34:32,916 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 13:34:32,923 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 123
+2013-05-24 13:34:32,934 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 13:34:33,009 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 13:36:07,490 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 13:36:07,505 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 13:36:09,481 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 002
+2013-05-24 13:36:12,299 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 13:36:12,350 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 13:36:33,571 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 13:36:33,572 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 13:36:33,575 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 003
+2013-05-24 13:36:35,587 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 13:36:35,590 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 13:36:42,036 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 13:36:42,038 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 13:36:42,040 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 004
+2013-05-24 13:36:44,048 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 13:36:44,052 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 15:00:10,268 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 15:00:10,320 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 15:00:12,980 INFO  CableCo.AccountsService.Handlers.ChangeSubscriptionsHandler - Handling ChangeSubscriptions: SWC000001
+2013-05-24 15:00:16,016 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 15:00:16,489 WARN  NHibernate.Util.ADOExceptionReporter - System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__Account__A25C5AA7712BA5D4'. Cannot insert duplicate key in object 'dbo.Account'. The duplicate key value is (SWC000001).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.SqlClient.SqlCommand.ExecuteBatchRPCCommand()
+   at System.Data.SqlClient.SqlCommandSet.ExecuteNonQuery()
+   at NHibernate.AdoNet.SqlClientSqlCommandSet.ExecuteNonQuery()
+   at NHibernate.AdoNet.SqlClientBatchingBatcher.DoExecuteBatch(IDbCommand ps)
+ClientConnectionId:6846bc78-c7e1-4a93-965e-6aa4ee2f6975
+2013-05-24 15:00:16,538 ERROR NHibernate.Util.ADOExceptionReporter - Violation of UNIQUE KEY constraint 'UQ__Account__A25C5AA7712BA5D4'. Cannot insert duplicate key in object 'dbo.Account'. The duplicate key value is (SWC000001).
+The statement has been terminated.
+2013-05-24 15:00:16,549 ERROR NHibernate.Event.Default.AbstractFlushingEventListener - Could not synchronize database state with session
+NHibernate.Exceptions.GenericADOException: could not execute batch command.[SQL: SQL not available] ---> System.Data.SqlClient.SqlException: Violation of UNIQUE KEY constraint 'UQ__Account__A25C5AA7712BA5D4'. Cannot insert duplicate key in object 'dbo.Account'. The duplicate key value is (SWC000001).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.SqlClient.SqlCommand.ExecuteBatchRPCCommand()
+   at System.Data.SqlClient.SqlCommandSet.ExecuteNonQuery()
+   at NHibernate.AdoNet.SqlClientSqlCommandSet.ExecuteNonQuery()
+   at NHibernate.AdoNet.SqlClientBatchingBatcher.DoExecuteBatch(IDbCommand ps)
+   --- End of inner exception stack trace ---
+   at NHibernate.AdoNet.SqlClientBatchingBatcher.DoExecuteBatch(IDbCommand ps)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteBatchWithTiming(IDbCommand ps)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteBatch()
+   at NHibernate.AdoNet.AbstractBatcher.OnPreparedCommand()
+   at NHibernate.AdoNet.AbstractBatcher.PrepareCommand(CommandType type, SqlString sql, SqlType[] parameterTypes)
+   at NHibernate.AdoNet.AbstractBatcher.PrepareBatchCommand(CommandType type, SqlString sql, SqlType[] parameterTypes)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityInsertAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2013-05-24 15:01:10,411 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 15:01:10,426 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 15:01:11,908 INFO  CableCo.AccountsService.Handlers.ChangeSubscriptionsHandler - Handling ChangeSubscriptions: SWC000001
+2013-05-24 15:01:14,822 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 15:01:14,890 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 15:01:36,317 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 15:01:36,317 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 15:01:36,322 INFO  CableCo.AccountsService.Handlers.ChangeSubscriptionsHandler - Handling ChangeSubscriptions: SWC000001
+2013-05-24 15:01:38,395 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 15:01:38,398 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:46:25,709 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:46:25,743 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:46:28,546 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 
+2013-05-24 18:48:52,015 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:48:52,044 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:48:54,439 ERROR NHibernate.Transaction.AdoTransaction - Begin transaction failed
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 0 - No process is on the other end of the pipe.) ---> System.ComponentModel.Win32Exception (0x80004005): No process is on the other end of the pipe
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.IsConnectionAlive(Boolean throwOnException)
+   at System.Data.SqlClient.SqlInternalConnectionTds.IsConnectionAlive(Boolean throwOnException)
+   at System.Data.ProviderBase.DbConnectionPool.GetFromTransactedPool(Transaction& transaction)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.AdoNet.ConnectionManager.GetConnection()
+   at NHibernate.Impl.SessionImpl.get_Connection()
+   at NHibernate.Transaction.AdoTransaction.Begin(IsolationLevel isolationLevel)
+ClientConnectionId:4aba3344-0315-42d6-abe5-a3121917ec04
+2013-05-24 18:49:19,508 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:49:19,509 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:49:20,015 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 
+2013-05-24 18:49:23,372 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 18:49:23,415 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:49:23,453 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:49:23,456 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:49:23,458 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 
+2013-05-24 18:49:24,717 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 18:49:24,723 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:49:24,743 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:49:24,744 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:49:24,745 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 
+2013-05-24 18:49:27,903 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 18:49:27,940 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:49:27,958 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:49:27,959 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:49:27,962 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 
+2013-05-24 18:49:28,716 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 18:49:28,722 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:50:13,797 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:50:13,826 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:50:15,425 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: SWC004
+2013-05-24 18:50:18,361 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 18:50:18,432 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:52:33,344 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:52:33,360 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:52:34,971 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 123
+2013-05-24 18:52:37,782 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 18:52:37,832 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:53:45,349 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:53:45,351 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:53:45,356 INFO  CableCo.AccountsService.Handlers.ChangeSubscriptionsHandler - Handling ChangeSubscriptions: SWC004
+2013-05-24 18:53:47,736 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 18:53:47,772 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:56:17,632 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:56:17,647 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:56:19,266 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 18:56:19,281 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:56:19,298 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:56:19,298 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:56:19,303 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 18:56:19,304 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:56:47,570 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:56:47,571 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:56:47,581 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 1234
+2013-05-24 18:56:50,416 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 18:56:50,462 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:58:47,459 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:58:47,473 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:58:50,840 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 18:58:50,849 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:58:50,876 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:58:50,876 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:58:50,935 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 18:58:50,939 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:59:28,024 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:59:28,025 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:59:28,061 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 
+2013-05-24 18:59:35,617 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 18:59:35,627 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:59:35,663 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:59:35,664 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:59:35,666 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 
+2013-05-24 18:59:37,356 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 18:59:37,360 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:59:37,379 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:59:37,380 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:59:37,383 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 
+2013-05-24 18:59:38,104 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 18:59:38,110 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:59:38,130 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:59:38,131 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:59:38,134 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 
+2013-05-24 18:59:38,855 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 18:59:38,874 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:59:38,916 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:59:38,917 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:59:38,919 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 
+2013-05-24 18:59:39,687 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 18:59:39,693 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 18:59:47,590 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 18:59:47,590 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 18:59:47,591 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 123
+2013-05-24 18:59:49,749 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 18:59:49,797 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:00:22,995 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:00:22,996 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:00:23,024 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 222
+2013-05-24 19:00:25,032 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 19:00:25,035 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:00:29,361 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:00:29,361 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:00:29,363 INFO  CableCo.AccountsService.Handlers.CreateAccountHandler - Handling CreateAccount: 333
+2013-05-24 19:00:31,371 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 19:00:31,372 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:01:15,691 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:01:15,693 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:01:15,701 INFO  CableCo.AccountsService.Handlers.ChangeSubscriptionsHandler - Handling ChangeSubscriptions: SWC000001
+2013-05-24 19:01:25,783 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 19:01:25,807 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:01:32,244 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:01:32,245 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:01:44,977 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:01:44,985 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:01:44,994 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:01:44,994 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:01:46,797 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:01:46,816 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:01:46,835 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:01:46,838 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:01:47,703 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:01:47,707 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:01:47,720 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:01:47,720 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:01:48,553 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:01:48,556 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:01:48,563 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:01:48,564 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:01:49,373 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:01:49,380 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:01:49,509 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:01:49,509 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:01:51,147 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 19:01:51,151 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:01:51,183 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:01:51,184 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:01:51,843 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 19:01:51,844 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:03:42,723 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:03:42,753 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:04:15,742 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:04:15,758 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:04:17,317 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 19:04:17,324 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:04:17,338 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:04:17,339 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:04:17,341 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 19:04:17,342 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:04:17,346 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:04:17,347 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:04:17,350 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 19:04:17,351 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:04:17,358 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:04:17,359 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:04:17,362 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 19:04:17,364 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:04:26,367 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:04:26,367 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:04:26,377 INFO  CableCo.AccountsService.Handlers.ChangeSubscriptionsHandler - Handling ChangeSubscriptions: SWC000001
+2013-05-24 19:04:32,469 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 19:04:32,538 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:04:38,804 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:04:38,805 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:10,586 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:10,602 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:16,540 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:16,541 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:18,326 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:18,327 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:21,143 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 19:07:21,368 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:07:21,397 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:21,398 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:23,169 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:07:23,182 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:07:23,207 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:23,208 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:24,756 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:07:24,765 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:07:24,777 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:24,778 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:29,677 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:07:29,694 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:07:29,773 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:29,774 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:30,752 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:07:30,784 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:07:30,808 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:30,809 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:31,697 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:07:31,701 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:07:32,022 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:32,023 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:32,937 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:07:32,950 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:07:32,998 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:32,999 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:34,103 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:07:34,133 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:07:34,197 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:34,198 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:35,109 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:07:35,112 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:07:35,128 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:35,129 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:36,065 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:07:36,068 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:07:36,128 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:36,128 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:37,498 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:07:37,563 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:07:37,749 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:37,749 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:37,754 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 19:07:37,754 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:07:37,756 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:37,756 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:37,760 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 19:07:37,761 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:07:59,523 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:07:59,524 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:07:59,529 INFO  CableCo.AccountsService.Handlers.ChangeSubscriptionsHandler - Handling ChangeSubscriptions: SWC000001
+2013-05-24 19:08:30,921 INFO  CableCo.AccountsService.Bus.UnitOfWork - Committing unit of work
+2013-05-24 19:08:31,114 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:08:45,224 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:08:45,225 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work
+2013-05-24 19:09:17,557 INFO  CableCo.AccountsService.Bus.UnitOfWork - Aborting unit of work
+2013-05-24 19:09:17,564 INFO  CableCo.AccountsService.Bus.UnitOfWork - Disposing unit of work
+2013-05-24 19:09:17,575 INFO  CableCo.AccountsService.Bus.UnitOfWorkManager - Creating unit of work
+2013-05-24 19:09:17,577 INFO  CableCo.AccountsService.Bus.UnitOfWork - Starting unit of work

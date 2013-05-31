@@ -1,0 +1,5 @@
+2013-05-28 14:11:24,592 INFO  CableCo.ChannelProvisioningService.Handlers.SubscriptionsChangedHandler - I know that customer SWC000001 has changed their subscription prn001, sports002
+2013-05-28 14:21:29,962 INFO  CableCo.ChannelProvisioningService.Handlers.SubscriptionsChangedHandler - I know that customer SWC000001 has changed their subscription prn001, sports002
+2013-05-28 14:32:25,581 INFO  CableCo.ChannelProvisioningService.Handlers.SubscriptionsChangedHandler - I know that customer SWC000001 has changed their subscription prn001, sports001
+2013-05-28 14:34:15,996 INFO  CableCo.ChannelProvisioningService.Handlers.SubscriptionsChangedHandler - I know that customer SWC000001 has changed their subscription prn001, sports001, sports002
+2013-05-28 14:37:12,072 INFO  CableCo.ChannelProvisioningService.Handlers.SubscriptionsChangedHandler - I know that customer SWC000001 has changed their subscription prn001, sports001

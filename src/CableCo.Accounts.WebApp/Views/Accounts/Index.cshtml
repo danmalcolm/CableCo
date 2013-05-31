@@ -1,0 +1,43 @@
+﻿@using CableCo.Accounts.WebApp.Common
+@using CableCo.Accounts.WebApp.Controllers
+@using CableCo.Accounts.WebApp.Controllers.Accounts
+@using Microsoft.Web.Mvc
+@model CableCo.Accounts.WebApp.Controllers.Accounts.ListModel
+
+@{
+    ViewBag.Title = "Accounts";
+}
+
+<h2>Create Account</h2>
+<form method="POST" action="@Url.Action("index")" class="form-inline">
+  <input type="text" name="code" class="input-small" placeholder="Account Code">
+  <input type="text" name="name" class="input-small" placeholder="Name">
+  <button type="submit" class="btn">Create</button>
+</form>
+
+<h2>Accounts</h2>
+<table class="table table-striped">
+    <caption></caption>
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Subscriptions</th>
+            <th>Etc</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Model.Accounts)
+        {
+            <tr>
+                <td><a href="@Url.Action((AccountsController c) => c.Details(account.Code))">@account.Code</a></td>
+                <td>@account.Code</td>
+                <td>@account.Subscriptions.Count</td>
+                <td></td>
+                <td></td>
+            </tr>
+        }
+
+    </tbody>
+</table>

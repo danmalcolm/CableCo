@@ -1,0 +1,13 @@
+@using CableCo.Accounts.WebApp.Common.Alerts
+
+@if (TempData.HasAlerts())
+{
+    var alerts = TempData.GetAlerts();
+    foreach (var alert in alerts)
+    {
+    <div class="alert alert-@alert.Type.ToString().ToLowerInvariant()">
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        @alert.Message
+    </div>
+    }
+}

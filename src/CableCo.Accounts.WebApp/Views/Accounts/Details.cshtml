@@ -1,0 +1,59 @@
+﻿@using CableCo.Accounts.WebApp.Common
+@using CableCo.Accounts.WebApp.Controllers.AccountSubscriptions
+@model CableCo.Accounts.WebApp.Controllers.Accounts.DetailsModel
+
+@{
+    ViewBag.Title = @Model.Account.Code + " Account Information";
+}
+
+<h2>Account Details</h2>
+<p>Code: @Model.Account.Code</p>
+
+<h2>Subscriptions</h2>
+<table class="table table-striped">
+    <caption></caption>
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Status</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var subscription in Model.Account.Subscriptions)
+        {
+            <tr>
+                <td>@subscription.ProductCode</td>
+                <td>@subscription.Status</td>
+                <td>
+                    <input name="subscriptionId" type="checkbox" /></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Add Subscriptions</h2>
+<form method="POST" action="@Url.Action((AccountSubscriptionsController c) => c.Index(null), new { Code = Model.Account.Code})">
+    <table class="table table-striped">
+        <caption></caption>
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model.AvailableProducts)
+            {
+                <tr>
+                    <td>@product.Code</td>
+                    <td>@product.Name</td>
+                    <td>
+                        <input name="productCodes" type="checkbox" value="@product.Code" /></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button type="submit" class="btn">Add</button>
+</form>
