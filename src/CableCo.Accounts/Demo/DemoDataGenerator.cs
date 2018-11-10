@@ -8,7 +8,7 @@ namespace CableCo.Accounts.Demo
         {
             var product1 = new Product
                 {
-                    Code = "prn001",
+                    Code = "exec001",
                     Name = "Executive Collection"
                 };
             var product2 = new Product

@@ -35,32 +35,52 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Castle.Core">
-      <HintPath>..\packages\Castle.Core.3.2.0\lib\net45\Castle.Core.dll</HintPath>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.3.1\lib\net45\Castle.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Castle.Windsor">
-      <HintPath>..\packages\Castle.Windsor.3.2.0\lib\net45\Castle.Windsor.dll</HintPath>
+    <Reference Include="Castle.Windsor, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Windsor.4.1.1\lib\net45\Castle.Windsor.dll</HintPath>
     </Reference>
     <Reference Include="Iesi.Collections">
       <HintPath>..\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
     </Reference>
-    <Reference Include="log4net">
-      <HintPath>..\packages\log4net.2.0.0\lib\net40-full\log4net.dll</HintPath>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
       <HintPath>..\packages\NHibernate.3.3.3.4000\lib\Net35\NHibernate.dll</HintPath>
     </Reference>
-    <Reference Include="Rebus">
-      <HintPath>..\packages\Rebus.0.32.1\lib\NET40\Rebus.dll</HintPath>
+    <Reference Include="Rebus, Version=5.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rebus.5.0.1\lib\net45\Rebus.dll</HintPath>
     </Reference>
-    <Reference Include="Rebus.Castle.Windsor">
-      <HintPath>..\packages\Rebus.Castle.Windsor.0.32.1\lib\NET40\Rebus.Castle.Windsor.dll</HintPath>
+    <Reference Include="Rebus.CastleWindsor, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rebus.Castle.Windsor.4.1.0\lib\net45\Rebus.CastleWindsor.dll</HintPath>
     </Reference>
-    <Reference Include="Rebus.Log4net">
-      <HintPath>..\packages\Rebus.Log4Net.0.32.1\lib\NET40\Rebus.Log4net.dll</HintPath>
+    <Reference Include="Rebus.Log4net, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rebus.Log4net.4.0.0\lib\net45\Rebus.Log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Rebus.Msmq, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rebus.Msmq.5.0.0\lib\net45\Rebus.Msmq.dll</HintPath>
+    </Reference>
+    <Reference Include="Rebus.SqlServer, Version=5.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rebus.SqlServer.5.0.2\lib\net45\Rebus.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Rebus.UnitOfWork, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rebus.UnitOfWork.4.0.0\lib\net45\Rebus.UnitOfWork.dll</HintPath>
+    </Reference>
+    <Reference Include="Rebus.XmlConfig, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rebus.XmlConfig.4.0.0\lib\net45\Rebus.XmlConfig.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -68,9 +88,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bus\RebusInstaller.cs" />
-    <Compile Include="Bus\UnitOfWork.cs" />
-    <Compile Include="Bus\UnitOfWorkManager.cs" />
+    <Compile Include="Bus\RebusConfiguration.cs" />
     <Compile Include="Handlers\ChangeSubscriptionsHandler.cs" />
     <Compile Include="Handlers\CreateAccountHandler.cs" />
     <Compile Include="Handlers\DirectDebitApplicationProcess.cs" />
@@ -92,13 +110,13 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\CableCo.Accounts.Commands\CableCo.Accounts.Commands.csproj">
+      <Project>{c954f483-2ef3-4d38-b3c5-73093f772f36}</Project>
+      <Name>CableCo.Accounts.Commands</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CableCo.Accounts.Events\CableCo.Accounts.Events.csproj">
       <Project>{9A6277EE-3C57-4D87-8D49-7B3DE5708D63}</Project>
       <Name>CableCo.Accounts.Events</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CableCo.AccountsService.Commands\CableCo.Accounts.Commands.csproj">
-      <Project>{C954F483-2EF3-4D38-B3C5-73093F772F36}</Project>
-      <Name>CableCo.Accounts.Commands</Name>
     </ProjectReference>
     <ProjectReference Include="..\CableCo.Accounts\CableCo.Accounts.csproj">
       <Project>{AB86CC2F-5BF9-4C77-A1E7-4DFF8C5EB2E2}</Project>

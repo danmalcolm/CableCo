@@ -1,25 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using CableCo.Common.Logging;
+using CableCo.ProvisioningService.Bus;
 using CableCo.ProvisioningService.Windsor;
-using Castle.Windsor;
 using log4net;
 
 namespace CableCo.ProvisioningService
 {
     public class Program
     {
-        private static WindsorContainer container;
         private static ILog log;
 
         static void Main()
         {
-            Console.WriteLine("Application has started. Ctrl-C to end");
-
             LogUtility.Initialise();
             log = LogUtility.ForCurrentType();
 
@@ -33,7 +26,8 @@ namespace CableCo.ProvisioningService
 
             using (var container = new ContainerInitialiser().Create())
             {
-                // main blocks here waiting for ctrl-C
+                RebusConfiguration.Init(container);
+                Console.WriteLine("Application has started. Ctrl-C to end");
                 autoResetEvent.WaitOne();
                 log.InfoFormat("Shutting down service");
             }

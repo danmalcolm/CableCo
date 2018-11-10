@@ -1,11 +1,13 @@
 ﻿using System.Linq;
+using System.Threading.Tasks;
 using CableCo.Accounts;
 using CableCo.Accounts.Commands;
 using CableCo.Common.Logging;
 using NHibernate;
 using NHibernate.Linq;
-using Rebus;
 using log4net;
+using Rebus.Bus;
+using Rebus.Handlers;
 
 namespace CableCo.AccountsService.Handlers
 {
@@ -21,7 +23,7 @@ namespace CableCo.AccountsService.Handlers
             this.session = session;
         }
 
-        public void Handle(CreateAccount message)
+        public async Task Handle(CreateAccount message)
         {
             Log.InfoFormat("Handling CreateAccount: {0}", message.AccountCode);
 
@@ -37,7 +39,7 @@ namespace CableCo.AccountsService.Handlers
 
         private void AlertThatCommandSucceeded(CreateAccount message)
         {
-            bus.Reply(CommandAlert.Success(string.Format("I've sorted that for you chief. Account {0} has been created", message.AccountCode)));
+            bus.Reply(CommandAlert.Success(string.Format("Account {0} has been created and is now active", message.AccountCode)));
         }
 
         private void AlertThatCommandInvalid(CreateAccount message)

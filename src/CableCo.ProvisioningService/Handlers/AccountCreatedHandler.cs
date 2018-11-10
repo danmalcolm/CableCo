@@ -1,7 +1,8 @@
-﻿using CableCo.Accounts.Events;
+﻿using System.Threading.Tasks;
+using CableCo.Accounts.Events;
 using CableCo.Common.Logging;
-using Rebus;
 using log4net;
+using Rebus.Handlers;
 
 namespace CableCo.ProvisioningService.Handlers
 {
@@ -9,7 +10,7 @@ namespace CableCo.ProvisioningService.Handlers
     {
         private static readonly ILog Log = LogUtility.ForCurrentType();
 
-        public void Handle(AccountCreated @event)
+        public async Task Handle(AccountCreated @event)
         {
             
         }

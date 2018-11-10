@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using NHibernate.Cfg;
 using NHibernate.Context;
 using NHibernate.Dialect;

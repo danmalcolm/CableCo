@@ -1,10 +1,10 @@
 ﻿using System.Linq;
+using System.Threading.Tasks;
 using CableCo.Accounts;
-using CableCo.Accounts.Commands;
 using CableCo.Provisioning.Events;
 using NHibernate;
 using NHibernate.Linq;
-using Rebus;
+using Rebus.Handlers;
 
 namespace CableCo.AccountsService.Handlers
 {
@@ -17,7 +17,7 @@ namespace CableCo.AccountsService.Handlers
             this.session = session;
         }
 
-        public void Handle(ProductProvisioned @event)
+        public async Task Handle(ProductProvisioned @event)
         {
             var account = session.Query<Account>().SingleOrDefault(x => x.Code == @event.AccountCode);
             account.ActivateSubscription(@event.ProductCode);

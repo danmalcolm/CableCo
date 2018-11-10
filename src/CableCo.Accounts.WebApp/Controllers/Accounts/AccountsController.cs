@@ -1,12 +1,11 @@
-using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
 using CableCo.Accounts.Commands;
 using CableCo.Common.Logging;
 using NHibernate;
 using NHibernate.Linq;
-using Rebus;
 using log4net;
+using Rebus.Bus;
 
 namespace CableCo.Accounts.WebApp.Controllers.Accounts
 {

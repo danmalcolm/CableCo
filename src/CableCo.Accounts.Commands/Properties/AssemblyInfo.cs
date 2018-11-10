@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CableCo.Tests")]
+[assembly: AssemblyTitle("CableCo.AccountsService.Commands")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CableCo.Tests")]
+[assembly: AssemblyProduct("CableCo.AccountsService.Commands")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b0e72b9d-0736-4bec-ae8b-741963a71e89")]
+[assembly: Guid("476b4583-98c5-4b2b-97c9-d406c2a9b9bf")]
 
 // Version information for an assembly consists of the following four values:
 //

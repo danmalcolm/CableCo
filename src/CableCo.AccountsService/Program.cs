@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading;
 using CableCo.Accounts.Events;
+using CableCo.AccountsService.Bus;
 using CableCo.AccountsService.Windsor;
 using CableCo.Common.Logging;
-using CableCo.Provisioning.Events;
-using Rebus;
+using Rebus.Startup;
 using ILog = log4net.ILog;
 
 namespace CableCo.AccountsService
@@ -15,8 +15,6 @@ namespace CableCo.AccountsService
 
         static void Main()
         {
-            Console.WriteLine("Application has started. Ctrl-C to end");
-
             LogUtility.Initialise();
             log = LogUtility.ForCurrentType();
 
@@ -28,12 +26,22 @@ namespace CableCo.AccountsService
                 autoResetEvent.Set();
             };
 
+
+            using (var container = new ContainerInitialiser().Create())
+            {
+                RebusConfiguration.Init(container);
+                Console.WriteLine("Application has started. Ctrl-C to end");
+                autoResetEvent.WaitOne();
+                log.InfoFormat("Shutting down service");
+            }
+
             using (var container = new ContainerInitialiser().Create())
             {
                 log.DebugFormat("Initialised container");
-                var bus = container.Resolve<IStartableBus>().Start();
-                bus.Subscribe<ProductProvisioned>();
-                DomainEvents.Configure(bus.Publish);
+                var starter = container.Resolve<IBusStarter>();
+                starter.Start();
+                
+                DomainEvents.Configure(e => starter.Bus.Publish(e));
                 
                 // main blocks here waiting for ctrl-C
                 autoResetEvent.WaitOne();

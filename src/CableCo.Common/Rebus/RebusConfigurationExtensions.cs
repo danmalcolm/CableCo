@@ -1,5 +1,4 @@
-﻿using CableCo.Common.Utility;
-using Rebus.Configuration;
+﻿using Rebus.Config;
 
 namespace CableCo.Common.Rebus
 {
@@ -17,25 +16,25 @@ namespace CableCo.Common.Rebus
         /// <returns></returns>
         public static RebusConfigurer ConfigureSqlServerStorage(this RebusConfigurer configurer, string endpointName, bool subscriptions = true, bool sagas = true)
         {
-            var environment = ConfigurationUtility.ReadAppSetting<Environment>("Environment");
-            string databaseName = endpointName + "EndPoint";
-            DatabaseSetupHelper.CreateDatabase(databaseName, environment);
-
-            string subscriptionTable = string.Format("{0}.Subscription", endpointName);
-            string sagaTable = string.Format("{0}.Saga", endpointName);
-            string sagaIndexTable = string.Format("{0}.SagaIndex", endpointName);
-            string connectionString = ConfigurationUtility.ReadConnectionString("endpoint");
-
-            if (subscriptions)
-            {
-               configurer.Subscriptions(x => x.StoreInSqlServer(connectionString, subscriptionTable)
-                    .EnsureTableIsCreated());
-            }
-            if (sagas)
-            {
-                configurer.Sagas(x => x.StoreInSqlServer(connectionString, sagaTable, sagaIndexTable)
-                    .EnsureTablesAreCreated());
-            }
+//            var environment = ConfigurationUtility.ReadAppSetting<Environment>("Environment");
+//            string databaseName = endpointName + "EndPoint";
+//            DatabaseSetupHelper.CreateDatabase(databaseName, environment);
+//
+//            string subscriptionTable = string.Format("{0}.Subscription", endpointName);
+//            string sagaTable = string.Format("{0}.Saga", endpointName);
+//            string sagaIndexTable = string.Format("{0}.SagaIndex", endpointName);
+//            string connectionString = ConfigurationUtility.ReadConnectionString("endpoint");
+//
+//            if (subscriptions)
+//            {
+//               configurer.Subscriptions(x => x.StoreInSqlServer(connectionString, subscriptionTable)
+//                    .EnsureTableIsCreated());
+//            }
+//            if (sagas)
+//            {
+//                configurer.Sagas(x => x.StoreInSqlServer(connectionString, sagaTable, sagaIndexTable)
+//                    .EnsureTablesAreCreated());
+//            }
             return configurer;
         }
 

@@ -1,13 +1,14 @@
 ﻿using System;
-using Rebus;
+using Rebus.Sagas;
 
 namespace CableCo.AccountsService.Handlers
 {
     public class DirectDebitApplicationProcess : Saga<DirectDebitApplicationContext>
     {
-        public override void ConfigureHowToFindSaga()
+       
+        protected override void CorrelateMessages(ICorrelationConfig<DirectDebitApplicationContext> config)
         {
-            
+            throw new NotImplementedException();
         }
     }
 

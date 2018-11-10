@@ -20,7 +20,7 @@ namespace CableCo.Common.Logging
         [MethodImpl(MethodImplOptions.NoInlining)]
         public static ILog ForCurrentType()
         {
-            var callingType = new StackFrame(2, false).GetMethod().DeclaringType;
+            var callingType = new StackFrame(1, false).GetMethod().DeclaringType;
             return LogManager.GetLogger(callingType);
         }
 

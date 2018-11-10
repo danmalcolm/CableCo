@@ -1,8 +1,7 @@
-using System.Linq;
+using System.Threading.Tasks;
 using CableCo.Accounts.Commands;
-using CableCo.Accounts.Events;
 using CableCo.Common.Alerts;
-using Rebus;
+using Rebus.Handlers;
 
 namespace CableCo.Accounts.WebApp.EventNotification
 {
@@ -16,7 +15,7 @@ namespace CableCo.Accounts.WebApp.EventNotification
             this.store = store;
         }
 
-        public void Handle(CommandAlert alert)
+        public async Task Handle(CommandAlert alert)
         {
             store.Add(Alert.Create(alert.Message, alert.Type));
         }

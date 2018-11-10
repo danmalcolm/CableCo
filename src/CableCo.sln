@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.12
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableCo.Accounts.WebApp", "CableCo.Accounts.WebApp\CableCo.Accounts.WebApp.csproj", "{888ED056-E7C0-4100-BCC3-6E4D16E9EADF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableCo.Accounts", "CableCo.Accounts\CableCo.Accounts.csproj", "{AB86CC2F-5BF9-4C77-A1E7-4DFF8C5EB2E2}"
@@ -11,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableCo.Tests", "CableCo.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableCo.AccountsService", "CableCo.AccountsService\CableCo.AccountsService.csproj", "{02F39904-DA46-4C55-8EF0-C9963408881E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableCo.Accounts.Commands", "CableCo.AccountsService.Commands\CableCo.Accounts.Commands.csproj", "{C954F483-2EF3-4D38-B3C5-73093F772F36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableCo.Accounts.Commands", "CableCo.Accounts.Commands\CableCo.Accounts.Commands.csproj", "{C954F483-2EF3-4D38-B3C5-73093F772F36}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableCo.Accounts.Events", "CableCo.Accounts.Events\CableCo.Accounts.Events.csproj", "{9A6277EE-3C57-4D87-8D49-7B3DE5708D63}"
 EndProject
@@ -71,5 +73,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C7A00DE-0974-4E5C-8DA3-1F72A500D56B}
 	EndGlobalSection
 EndGlobal

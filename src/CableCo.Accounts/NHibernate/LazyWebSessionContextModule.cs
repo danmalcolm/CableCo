@@ -1,6 +1,5 @@
 using System;
 using System.Web;
-using CableCo.Accounts.NHibernate;
 using NHibernate;
 
 namespace CableCo.Accounts.NHibernate

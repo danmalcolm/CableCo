@@ -1,11 +1,13 @@
 ﻿using System.Linq;
+using System.Threading.Tasks;
 using CableCo.Accounts;
 using CableCo.Accounts.Commands;
 using CableCo.Common.Logging;
 using NHibernate;
 using NHibernate.Linq;
-using Rebus;
 using log4net;
+using Rebus.Bus;
+using Rebus.Handlers;
 
 namespace CableCo.AccountsService.Handlers
 {
@@ -21,7 +23,7 @@ namespace CableCo.AccountsService.Handlers
             this.session = session;
         }
 
-        public void Handle(ChangeSubscriptions message)
+        public async Task Handle(ChangeSubscriptions message)
         {
             Log.InfoFormat("Handling ChangeSubscriptions: {0}", message.AccountCode);
 

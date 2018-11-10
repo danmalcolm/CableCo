@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Http;
+﻿using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using CableCo.Accounts.WebApp.App_Start;
+using CableCo.Accounts.WebApp.Bus;
 using CableCo.Accounts.WebApp.Windsor;
 using CableCo.Common.Logging;
 using Castle.Windsor;
 using log4net;
+using Rebus.Startup;
 
 namespace CableCo.Accounts.WebApp
 {
@@ -32,18 +30,14 @@ namespace CableCo.Accounts.WebApp
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 
-            SetupIocContainer();
+            container = new ContainerInitialiser().Create();
+            RebusConfiguration.Init(container);
         }
 
         private void SetupLogging()
         {
             LogUtility.Initialise();
             log = LogManager.GetLogger(this.GetType());
-        }
-
-        private void SetupIocContainer()
-        {
-            container = new ContainerInitialiser().Create();
         }
     }
 }

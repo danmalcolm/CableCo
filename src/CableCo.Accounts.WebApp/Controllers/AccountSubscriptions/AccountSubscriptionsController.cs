@@ -6,8 +6,8 @@ using CableCo.Common.Logging;
 using Microsoft.Web.Mvc;
 using NHibernate;
 using NHibernate.Linq;
-using Rebus;
 using log4net;
+using Rebus.Bus;
 
 namespace CableCo.Accounts.WebApp.Controllers.AccountSubscriptions
 {

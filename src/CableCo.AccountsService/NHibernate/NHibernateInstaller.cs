@@ -3,9 +3,8 @@ using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
 using NHibernate;
-using NHibernate.Cfg;
-using Rebus;
-using Rebus.Castle.Windsor;
+using Rebus.CastleWindsor;
+using Rebus.Pipeline;
 
 namespace CableCo.AccountsService.NHibernate
 {
@@ -19,8 +18,8 @@ namespace CableCo.AccountsService.NHibernate
                 Component.For<ISessionFactory>()
                          .UsingFactoryMethod(kernel => configurationStore.SessionFactory),
                 Component.For<ISession>()
-                        .UsingFactoryMethod(kernel => MessageContext.GetCurrent().Items["session"] as ISession)
-                        .LifestyleScoped<PerTransportMessage>());
+                        .UsingFactoryMethod(kernel => MessageContext.Current.TransactionContext.Items["session"] as ISession)
+                        .LifestylePerRebusMessage());
         }
     }
 }

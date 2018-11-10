@@ -1,7 +1,8 @@
 using System.Linq;
+using System.Threading.Tasks;
 using CableCo.Accounts.Events;
 using CableCo.Common.Alerts;
-using Rebus;
+using Rebus.Handlers;
 
 namespace CableCo.Accounts.WebApp.EventNotification
 {
@@ -22,20 +23,20 @@ namespace CableCo.Accounts.WebApp.EventNotification
             store.Add(Alert.Create(message, AlertType.Information));
         }
 
-        public void Handle(AccountCreated @event)
+        public async Task Handle(AccountCreated @event)
         {
             string message = string.Format("Account {0} has been created", @event.AccountCode);
             AddAlert(message);
         }
 
-        public void Handle(SubscriptionsChanged @event)
+        public async Task Handle(SubscriptionsChanged @event)
         {
             string message = string.Format("Account {0} has changed subscriptions {1}", 
                 @event.AccountCode, string.Join(",", @event.Subscriptions.Select(s => s.ProductCode)));
             AddAlert(message);
         }
 
-        public void Handle(SubscriptionProvisioned @event)
+        public async Task Handle(SubscriptionProvisioned @event)
         {
             string message = string.Format("Account {0}'s service {1} has been provisioned",
                 @event.AccountCode, @event.ProductCode);

@@ -1,7 +1,7 @@
 ﻿using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
-using Rebus;
+using Rebus.CastleWindsor;
 
 namespace CableCo.Accounts.WebApp.Bus
 {
@@ -9,9 +9,7 @@ namespace CableCo.Accounts.WebApp.Bus
     {
         public void Install(IWindsorContainer container, IConfigurationStore store)
         {
-            container.Register(Classes.FromThisAssembly().BasedOn<IHandleMessages>()
-                .WithService.AllInterfaces()
-                .LifestyleTransient());
+            container.AutoRegisterHandlersFromAssemblyOf<HandlerInstaller>();
         }
     }
 }
